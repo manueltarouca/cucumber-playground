@@ -1,0 +1,124 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "playwright-test;open-google-homepage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open Google Homepage",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the browser",
+            "match": {
+              "location": "src/step-definitions/playwrightSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 819580499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to \"https://www.google.com\"",
+            "match": {
+              "location": "src/step-definitions/playwrightSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1049438500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see \"Google\" in the page title",
+            "match": {
+              "location": "src/step-definitions/playwrightSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4957875
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "playwright-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Playwright Test",
+    "tags": [],
+    "uri": "src/features/playwrightTest.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sample-feature;adding-two-numbers",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Adding two numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have two numbers 5 and 10",
+            "match": {
+              "location": "src/step-definitions/sampleSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I add them",
+            "match": {
+              "location": "src/step-definitions/sampleSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the result should be 15",
+            "match": {
+              "location": "src/step-definitions/sampleSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71541
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sample Feature",
+    "tags": [],
+    "uri": "src/features/sample.feature"
+  }
+]

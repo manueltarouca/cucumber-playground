@@ -1,0 +1,20 @@
+{
+  "default": {
+    "require": [
+      "./src/step-definitions/*.ts"
+    ],
+    "format": [
+      "json:reports/cucumber-report.json",
+      "progress"
+    ],
+    "paths": [
+      "./src/features/*.feature"
+    ],
+    "requireModule": [
+      "ts-node/register"
+    ],
+    "worldParameters": {
+      "browser": "chromium"
+    }
+  }
+}
